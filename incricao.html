@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <title>Inscrição</title>
+</head>
+
+<header class="cabecalho">
+    <a href="#" class="logo">
+        <img src="./src/imagens/Logo.png" alt="logo click criativo" class="imagem">
+    </a>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li class="item">
+                <a href="index.html">Volte para a página inicial</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <form class="formulario">
+        <fieldset class="conteudo">
+            <h1>Formulário</h1>
+            <p >Seu nome completo:</p>
+            <input type="text" placeholder="Digite seu nome" /><br>
+            <p>Senha de acesso:</p>
+            <input type="password" placeholder="Digite sua senha" /><br>
+            <p>Seu melhor e-mail:</p>
+            <input type="email" placeholder="Digite seu e-mail" /><br>
+            <p>Número de telefone:</p>
+            <input type="number" placeholder="Digite seu número" /><br>
+            <br>
+            <input type="radio" id="rdoF" name="rdoSexo" value="M">
+            <label for="rdoM">Masculino</label>
+            <input type="radio" id="rdoF" name="rdoSexo" value="F">
+            <label for="rdoM">Feminino</label>
+            <br>
+            <p>Turno que deseja:</p>
+            <input type="checkbox" id="chkManha" name="chkManha">
+            <label for="chkManha">Manhã</label><br>
+            <input type="checkbox" id="chkTarde" name="chkTarde">
+            <label for="chkTarde">Tarde</label><br>
+            <input type="checkbox" id="chkNoite" name="chkNoite">
+            <label for="chkNoite">Noite</label><br>
+            <p>Adicione aqui seu portifólio:</p>
+            <input type="file" /><br>
+            <br>
+            <p>Data que deseja ingressar:</p>
+            <input type="datetime-local" /><br>
+            <br>
+            <select>
+                <option value="">-Selecione a área que deseja-</option>
+                <option value="Fotografia">Fotografia para iniciantes</option>
+                <option value="Fotografia-avançada">Fotografia avançada</option>
+                <option value="Photoshop">Edição (Photoshop e Lightroom)</option>
+            </select>
+            <input type="submit" value="Enviar" />
+        </fieldset>
+    </form>
+    <footer class="rodape">
+        <nav class="navegacao">
+            <a href="#" class="logo">
+                <img src="src/imagens/Logo.png">
+            </a>
+
+            <div class="redes-sociais">
+                <a href="#" class="rede-social">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="rede-social">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="rede social">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </nav>
+        <p class="copyright">Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
